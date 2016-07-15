@@ -12,10 +12,16 @@ public class SiguienteNivel : MonoBehaviour {
 	}
 	void CargarNivel(){
 		//Application.LoadLevel(nivelACargar);
+		if(!UltimoNivel() && !Portada()){
+			Vidas.numero++;
+		}
 		SceneManager.LoadScene (nivelACargar);
 	}
 
 	public bool UltimoNivel(){
 		return (nivelACargar == "portada");
+	}
+	public bool Portada(){
+		return (nivelACargar == "uno");
 	}
 }

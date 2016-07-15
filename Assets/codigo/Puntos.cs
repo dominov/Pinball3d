@@ -11,6 +11,7 @@ public class Puntos : MonoBehaviour {
 	public CtrBarra ctrBarra;
 	public Transform bloques_;
 	public CtrPelota ctrPelota;
+	public FinalDePartida finalDePartida;
 	// Use this for initialization
 	void Start () {
 		ActualizarTexto ();
@@ -19,14 +20,15 @@ public class Puntos : MonoBehaviour {
 	public void ActualizarNumero(){
 		Puntos.numero++;
 		ActualizarTexto ();
-
+		Debug.Log (bloques_.childCount);
 		if(bloques_.childCount<=0){
 			//nivel terminado
 
-
+			finalDePartida.NivelCompleto ();
 			ctrPelota.DetenerVelocidad ();
 			ctrBarra.enabled = false;
 			if (siguienteNivel.UltimoNivel ()) {
+				
 				finishGame.SetActive (true);
 			} else {
 				finishNivel.SetActive (true);
@@ -38,5 +40,6 @@ public class Puntos : MonoBehaviour {
 
 	public void ActualizarTexto(){
 		text.text = "Puntos: " + numero;
+
 	}
 }

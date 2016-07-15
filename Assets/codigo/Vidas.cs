@@ -10,6 +10,7 @@ public class Vidas : MonoBehaviour {
 	public CtrPelota ctrPelota;
 	public  GameObject gameOver;
 	public SiguienteNivel siguienteNivel;
+	public FinalDePartida finalDePartida;
 
 	// Use this for initialization
 	void Start () {
@@ -27,6 +28,7 @@ public class Vidas : MonoBehaviour {
 			ctrBarra.ReiniciarPos ();
 			ctrPelota.ReiniciarPos ();
 		} else {
+			finalDePartida.GameOver();
 			gameOver.SetActive (true);
 			//ctrPelota.DetenerVelocidad ();
 			ctrBarra.enabled = false;

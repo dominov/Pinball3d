@@ -8,11 +8,12 @@ public class CtrBloques : MonoBehaviour {
 
 	void OnCollisionEnter(){
 		Instantiate (particula, this.transform.position, Quaternion.identity);
-		puntos.ActualizarNumero ();
+
 		this.transform.SetParent (null);
 		if (this.gameObject != null) {
 			Destroy (this.gameObject);
 		}
+		puntos.ActualizarNumero ();
 	}
 
 }

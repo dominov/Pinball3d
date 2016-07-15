@@ -2,13 +2,17 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/codigo/Puntos.cs">
     <Files>
-      <File FileName="Assets/codigo/Vidas.cs" Line="27" Column="1" />
-      <File FileName="Assets/codigo/CtrPelota.cs" Line="1" Column="1" />
+      <File FileName="Assets/codigo/SonidosPelota.cs" Line="14" Column="19" />
+      <File FileName="Assets/codigo/Vidas.cs" Line="6" Column="30" />
+      <File FileName="Assets/codigo/CtrPelota.cs" Line="24" Column="48" />
       <File FileName="Assets/codigo/CtrBarra.cs" Line="1" Column="1" />
-      <File FileName="Assets/codigo/CtrBloques.cs" Line="1" Column="1" />
-      <File FileName="Assets/codigo/CtrSuelo.cs" Line="1" Column="1" />
-      <File FileName="Assets/codigo/Puntos.cs" Line="23" Column="1" />
-      <File FileName="Assets/codigo/Salir.cs" Line="9" Column="18" />
+      <File FileName="Assets/codigo/CtrBloques.cs" Line="16" Column="30" />
+      <File FileName="Assets/codigo/CtrSuelo.cs" Line="16" Column="17" />
+      <File FileName="Assets/codigo/Puntos.cs" Line="43" Column="3" />
+      <File FileName="Assets/codigo/Salir.cs" Line="11" Column="4" />
+      <File FileName="Assets/codigo/FinalDePartida.cs" Line="10" Column="22" />
+      <File FileName="Assets/codigo/SiguienteNivel.cs" Line="6" Column="21" />
+      <File FileName="Assets/codigo/IniciarJuego.cs" Line="12" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

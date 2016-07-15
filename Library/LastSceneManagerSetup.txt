@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/escenas/uno.unity
+- path: Assets/escenas/dos.unity
   isLoaded: 1
   isActive: 1
