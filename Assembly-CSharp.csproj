@@ -46,7 +46,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\codigo\CtrBarra.cs" />
+     <Compile Include="Assets\codigo\CtrBloques.cs" />
      <Compile Include="Assets\codigo\CtrPelota.cs" />
+     <Compile Include="Assets\codigo\CtrSuelo.cs" />
+     <Compile Include="Assets\codigo\Puntos.cs" />
+     <Compile Include="Assets\codigo\Salir.cs" />
+     <Compile Include="Assets\codigo\SiguienteNivel.cs" />
+     <Compile Include="Assets\codigo\Vidas.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>

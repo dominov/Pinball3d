@@ -10,7 +10,7 @@ public class CtrBarra : MonoBehaviour {
 	}
 
 	public void ReiniciarPos(){
-		
+		this.transform.position =  this.posicionInicial;
 	}
 	// Update is called once per frame
 	void Update () {

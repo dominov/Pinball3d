@@ -16,7 +16,7 @@ public class CtrPelota : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		posicionInicial = this.transform.position;
 	}
 	
 	// Update is called once per frame
